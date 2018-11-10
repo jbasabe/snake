@@ -92,7 +92,7 @@ function tick() {
 		snake.show();
 		fill(255);
 		stroke(0);
-		rect(0, ch, cw, 50);
+		rect(0, ch, cw-1, 49);
 		fill(0);
 		noStroke();
 		textSize(18);
