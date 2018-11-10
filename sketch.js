@@ -23,7 +23,7 @@ function setup() {
 	}
 	fill(255);
 	stroke(0);
-	rect(0, ch, cw, 50);
+	rect(0, ch, cw-1, 49);
   fill(230);
   rect(cw/3, 5*ch/12, cw/3, ch/6);
   textSize(20);
